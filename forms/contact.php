@@ -1,5 +1,5 @@
 <?php
- include_once("index.html")
+ include_once("index.html");
 
   $receiving_email_address = 'bhushancbaraik@gmail.com';
 
