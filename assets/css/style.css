@@ -8,6 +8,24 @@
     text-decoration: none;
     font-family: 'Source Serif Pro', serif;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blueviolet;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: skyblue;
+}
+
 /**{font-family: 'Dancing Script', cursive; font-family: 'Kaushan Script', cursive;} */
 /* navbar styling */
 .navbar{
